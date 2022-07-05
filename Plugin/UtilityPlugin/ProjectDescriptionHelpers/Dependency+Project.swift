@@ -30,5 +30,4 @@ public extension TargetDependency.Project.Service {
 public extension TargetDependency.Project.UserInterfaces {
     static let DesignSystem = TargetDependency.ui(name: "DesignSystem")
     static let LocalizableManager = TargetDependency.ui(name: "LocalizableManager")
-    static let ResourcePackage = TargetDependency.ui(name: "ResourcePackage")
 }

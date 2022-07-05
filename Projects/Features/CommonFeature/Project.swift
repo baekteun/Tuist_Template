@@ -8,7 +8,6 @@ let project = Project.makeModule(
         .Project.Service.Domain,
         .Project.Module.Utility,
         .Project.UserInterfaces.DesignSystem,
-        .Project.UserInterfaces.LocalizableManager,
-        .Project.UserInterfaces.ResourcePackage
+        .Project.UserInterfaces.LocalizableManager
     ]
 )
