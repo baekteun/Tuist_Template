@@ -34,7 +34,7 @@ import ProjectDescriptionHelpers
 
 let project = Project.makeModule(
     name: "{feature_name}Feature",
-    productt: .staticFramework,
+    product: .staticFramework,
     dependencies: [
         .Project.Features.CommonFeature"""
     file_content += ",\n        ".join(dependencies)
