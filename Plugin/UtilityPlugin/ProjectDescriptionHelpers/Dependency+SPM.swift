@@ -8,5 +8,5 @@ public extension TargetDependency {
 public extension TargetDependency.SPM {
 }
 
-public extension Package{
+public extension Package {
 }
