@@ -5,6 +5,6 @@ let project = Project.makeModule(
     name: "APIKit",
     product: .staticFramework,
     dependencies: [
-        .Project.Module.Utility
+        .Project.Module.ThirdPartyLib
     ]
 )
