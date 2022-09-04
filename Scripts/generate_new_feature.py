@@ -30,8 +30,7 @@ def make_dirs(paths):
 def make_project_file(feature_name, file_path, has_demo=False, dependencies=[]):
     project_path = file_path + '/Project.swift'
     file_name = file_path.split('/')[-1]
-    file_content = f"""
-import ProjectDescription
+    file_content = f"""import ProjectDescription
 import ProjectDescriptionHelpers
 
 let project = Project.makeModule(
