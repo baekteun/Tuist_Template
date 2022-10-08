@@ -8,4 +8,4 @@ Tuist/ProjectDescriptionHelpers/Environment.swift 의 appName, targetName을 프
 
 # Tuist graph
 
-<img width="823" alt="스크린샷 2022-08-05 오후 9 28 09" src="https://user-images.githubusercontent.com/74440939/186039745-d3daebae-fe40-4fbe-a2ab-acf5ef566fda.png">
+<img width="823" alt="스크린샷 2022-08-05 오후 9 28 09" src="https://user-images.githubusercontent.com/74440939/194689991-857d8830-2939-4f6a-9501-aa78008de467.png">
