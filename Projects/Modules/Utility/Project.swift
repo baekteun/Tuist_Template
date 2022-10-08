@@ -6,6 +6,7 @@ let project = Project.makeModule(
     product: .staticFramework,
     dependencies: [
         .Project.Module.ThirdPartyLib,
-        .Project.Module.ErrorModule
+        .Project.Module.ErrorModule,
+        .Project.Service.DataMappingModule
     ]
 )
