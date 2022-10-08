@@ -5,6 +5,7 @@ let project = Project.makeModule(
     name: "DatabaseModule",
     product: .staticFramework,
     dependencies: [
-        .Project.Module.Utility
+        .Project.Module.Utility,
+        .Project.Service.Domain
     ]
 )
