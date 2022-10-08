@@ -1,5 +1,7 @@
-# 프로젝트 이름 세팅
+# Template 개요
+Clean Architecture와 Feature별로 모듈을 만드는 것을 생각해서 만든것입니다.
 
+# 프로젝트 이름 세팅
 Tuist/ProjectDescriptionHelpers/Environment.swift 의 appName, targetName을 프로젝트 이름으로 변경.
 
 # new feature 생성
