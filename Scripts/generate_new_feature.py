@@ -29,7 +29,6 @@ def make_dirs(paths):
 
 def make_project_file(feature_name, file_path, has_demo=False, dependencies=[]):
     project_path = file_path + '/Project.swift'
-    file_name = file_path.split('/')[-1]
     file_content = f"""import ProjectDescription
 import ProjectDescriptionHelpers
 
@@ -141,6 +140,7 @@ def read_file_at(file_path):
         return file.readlines()
 
 def update_file_at(dependency_file, feature_name):
+    insert_line = 0
     dependency_file_len = len(dependency_file)
     for index, elem in enumerate(dependency_file):
         if "public extension TargetDependency.Project.Features" in elem:
@@ -161,7 +161,7 @@ def write_file_at(file_path, update_file):
 
 print('Input new feature name ', end=': ', flush=True)
 feature_name = sys.stdin.readline().replace("\n", "")
-
+feature_name = feature_name.rstrip("Feature")
 print('Include demo? (Y or N, default = N) ', end=': ', flush=True)
 has_demo = sys.stdin.readline().replace("\n", "").upper() == "Y"
 
